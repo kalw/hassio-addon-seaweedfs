@@ -37,4 +37,4 @@ exec weed server \
     -s3.port=8333 \
     -master.port=9333 \
     -volume.port=8080 \
-    -filer.port=8888
+    -filer.port=8889
