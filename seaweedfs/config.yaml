@@ -12,7 +12,6 @@ ingress: true
 ingress_port: 8888
 map:
   - share:rw
-webui: "http://[HOST]:[PORT:8888]"
 ports:
   8333/tcp: 8333
   8888/tcp: 8888
