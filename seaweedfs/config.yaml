@@ -9,7 +9,7 @@ arch:
   - amd64
 init: false
 ingress: true
-ingress_port: 0
+ingress_port: 8888
 map:
   - share:rw
 webui: "http://[HOST]:[PORT:8888]"
