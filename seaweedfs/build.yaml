@@ -1,7 +1,7 @@
 ---
 build_from:
-  aarch64: "ghcr.io/home-assistant/aarch64-base:3.19"
-  amd64: "ghcr.io/home-assistant/amd64-base:3.19"
+  aarch64: "ghcr.io/hassio-addons/base-aarch64:21.0.0"
+  amd64: "ghcr.io/hassio-addons/base-amd64:21.0.0"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: SeaweedFS"
   org.opencontainers.image.description: "SeaweedFS S3-compatible distributed object storage"
