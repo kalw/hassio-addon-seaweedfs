@@ -2,7 +2,6 @@
 name: "SeaweedFS"
 version: "dev"
 slug: "seaweedfs"
-image: "ghcr.io/kalw/hassio-addon-seaweedfs/{arch}"
 description: "SeaweedFS S3-compatible distributed object storage"
 url: "https://github.com/kalw/hassio-addon-seaweedfs"
 arch:
