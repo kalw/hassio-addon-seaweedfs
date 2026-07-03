@@ -5,6 +5,9 @@ FROM ${BUILD_FROM}
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
+# Install dependencies
+RUN apk add --no-cache nginx=1.24.0-r16
+
 # Install SeaweedFS
 ARG SEAWEEDFS_VERSION="4.34"
 RUN \
