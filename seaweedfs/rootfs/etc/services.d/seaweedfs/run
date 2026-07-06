@@ -40,5 +40,4 @@ exec weed server \
     -master.port=9333 \
     -volume.port=8080 \
     -volume.publicUrl="127.0.0.1:8080" \
-    -filer.port=8889 \
-    -filer.s3.region="${s3_region}"
+    -filer.port=8889
