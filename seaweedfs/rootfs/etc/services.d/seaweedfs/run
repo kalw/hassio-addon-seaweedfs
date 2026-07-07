@@ -41,4 +41,6 @@ exec weed server \
     -master.port=9333 \
     -volume.port=8080 \
     -volume.publicUrl="127.0.0.1:8080" \
+    -volume.max=0 \
+    -master.volumeSizeLimitMB=1000 \
     -filer.port=8889
