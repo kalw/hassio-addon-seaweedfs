@@ -1,9 +1,12 @@
-ARG BUILD_FROM=ghcr.io/hassio-addons/base:21.0.0
+ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:3.19
 # hadolint ignore=DL3006
 FROM ${BUILD_FROM}
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+# Install dependencies
+RUN apk add --no-cache nginx=1.24.0-r16
 
 # Install SeaweedFS
 ARG SEAWEEDFS_VERSION="4.34"
