@@ -30,7 +30,6 @@ cat > /etc/seaweedfs/s3.json <<EOF
 EOF
 
 exec weed server \
-    -ip=127.0.0.1 \
     -dir="${data_path}" \
     -filer \
     -s3 \
