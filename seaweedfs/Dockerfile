@@ -9,7 +9,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apk add --no-cache nginx=1.24.0-r16
 
 # Install SeaweedFS
-ARG SEAWEEDFS_VERSION="4.40"
+ARG SEAWEEDFS_VERSION="4.41"
 RUN \
     apkArch="$(apk --print-arch)"; \
     case "$apkArch" in \
